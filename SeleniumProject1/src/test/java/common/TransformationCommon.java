@@ -65,7 +65,8 @@ public class TransformationCommon {
 	public static XSSFRow Row;
 
 	/**
-	 * Compulsory call this method to setUp the driver and locators file.
+	 * Compulsory call this method from testclass to setUp the driver and locators
+	 * file.
 	 */
 	public void setUp() throws SAXException, IOException {
 		setUpDriver();
